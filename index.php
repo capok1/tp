@@ -39,8 +39,8 @@
         padding: 0 !important;
     }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='css/style.min.css' type='text/css' media='all'/>
-    <link rel='stylesheet' id='simplestyle_style-css' href='css/style.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='wp-block-library-css' href='style.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='simplestyle_style-css' href='style.css' type='text/css' media='all'/>
  </head>
 <body class="home page-template-default page page-id-5">
 
@@ -93,7 +93,7 @@
             <p></p>
 
             <h2>
-                <span class="has-inline-color has-pale-pink-color">Service par POD: </span>Inscrire ici le code php
+                <span class="has-inline-color has-pale-pink-color">Service par POD: </span>$_ENV["POD_NAME"]
                 <br/><span class="has-inline-color has-luminous-vivid-amber-color">Version du serveur web : </span>Inscrire ici le code php
             </h2>
 
@@ -124,7 +124,7 @@
             <hr class="wp-block-separator"/>
 
             <h6 class="has-text-align-right">
-                <span style="color:#0072a3" class="has-inline-color">App par 'Votre nom' &#8211; version docker votreCompte/420-4d4-es:es-1.0</span>
+                <span style="color:#0072a3" class="has-inline-color">App par Marc-Antoine Dompierre &#8211; version docker capok1/1660361-tp-03:latest</span>
             </h6>
 
             <div class="clear"></div>
