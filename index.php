@@ -93,7 +93,7 @@
             <p></p>
 
             <h2>
-                <span class="has-inline-color has-pale-pink-color">Service par POD: </span><?php $value = getenv("POD_NAME"); echo $value ?>
+                <span class="has-inline-color has-pale-pink-color">Service par POD</span><?php echo ":" . $_ENV["POD_NAME"] ?>
                 <br/><span class="has-inline-color has-luminous-vivid-amber-color">Version du serveur web : </span>Inscrire ici le code php
             </h2>
 
