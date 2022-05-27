@@ -57,10 +57,10 @@
                     <ul id="menu-menu-1" class="nav">
                         <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26">
                             <!-- ATTENTION, ne pas coder à la dure, l'adresse IP!! -->
-                            <a href="http://<?php echo $_ENV["POD_IP"] ?>:30081">NextCloud</a>
+                            <a href="" onclick="javascript:event.target.port=30081">NextCloud</a>
                         </li>
                         <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27">
-                        <a href="http://<?php echo $_ENV["POD_IP"] ?>:30082">Mattermost</a>
+                        <a href="" onclick="javascript:event.target.port=30082">Mattermost</a>
                         </li>
                         <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28">
                             <a href="http://ve2cuy.com/420-4d4b/index.php/planification-hebdomadaire/">420-4D4</a>
