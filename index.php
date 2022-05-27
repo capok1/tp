@@ -97,7 +97,10 @@
                 <?php
                  echo $_ENV["POD_NAME"];
                 ?>
-                <br/><span class="has-inline-color has-luminous-vivid-amber-color">Version du serveur web : </span>Inscrire ici le code php
+                <br/><span class="has-inline-color has-luminous-vivid-amber-color">Version du serveur web : </span>
+                <?php
+                 echo apache_get_version();
+                 ?>
             </h2>
 
             <hr class="wp-block-separator"/>
